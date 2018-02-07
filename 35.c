@@ -3,17 +3,17 @@
 int main()
 {
  char str[100];
- int dig,i;
- dig=i=0;
+ int dig,j;
+ dig=j=0;
  printf("Enter any string :");
  gets(str);
-  while(str[i]!='\0')
+  while(str[j]!='\0')
  {
- if(str[i]>='0' && str[i]<='9')
+ if(str[j]>='0' && str[j]<='9')
   {
   dig++;
   }
-  i++;
+  j++;
   }
   printf("Digits = %d\n", dig);
   return 0;
